@@ -1,0 +1,24 @@
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+  {% if paginator.previous_page %}
+                                                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="prevposts-link"><i class="fa fa-caret-left"></i></a>
+												{% else %}
+												{% endif %}
+												
+												  {% for page in (1..paginator.total_pages) %}
+												   {% if page == paginator.page %}
+                                                <a href="" class="blog-page transition">{{ page }}</a>
+												 {% elsif page == 1 %}
+                                                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="blog-page current-page transition">{{ page }}</a>
+												
+												 {% else %}
+												  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="blog-page current-page transition">{{ page }}</a>
+												 
+												 {% endif %}
+												 {% endfor %}
+												  {% if paginator.next_page %}
+                                                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="nextposts-link"><i class="fa fa-caret-right"></i></a>
+												 {% else %}
+												 {% endif %}
+                                            </div>
+											{% endif %}

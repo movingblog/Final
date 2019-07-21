@@ -1,0 +1,175 @@
+---
+layout: Home
+disqus: false
+archive: false
+post_class: post-template
+---
+
+<!-- Begin Article
+================================================== -->
+
+<!-- <section class="parallax-section small-par color-bg"> -->
+                        <!-- <div class="shapes-bg-big"></div> -->
+                        <!-- <div class="container"> -->
+                            <!-- <div class="section-title center-align"> -->
+                               
+                                <!-- <h2><span>{{ page.title }}</span></h2> -->
+                               
+                               
+                            <!-- </div> -->
+                        <!-- </div> -->
+                       
+                    <!-- </section> -->
+					
+					
+					
+					<section class="gray-section" id="sec1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="list-single-main-wrapper fl-wrap" id="sec2">
+                                        <!-- article> --> 
+		 {% assign author = site.authors[page.author] %}
+                                        <article>
+                                           <div class="list-single-main-media fl-wrap">
+                                                <!-- <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"> -->
+                                            </div>
+                                            <div class="list-single-main-item fl-wrap">
+								
+                                                <div class="list-single-main-item-title fl-wrap">
+                                                 <h3>{{ page.title }}</h3>
+                                                </div>
+                                               <p>{{content}}</p>
+											   
+											   <div class="post-author"><img src="{{ author.gravatar }}" alt="{{ author.display_name }}"><span>By , {{ author.display_name }}</span></div>
+                                                <div class="post-opt">
+                                                    <ul>
+                                                        <li><i class="fa fa-calendar-check-o"></i> {{ page.date | date_to_string }}</li>
+                                                       
+                                                    </ul>
+                                                </div>
+                                                <span class="fw-separator"></span>
+                                                
+                                               
+                                                <div class="share-holder hid-share">
+                                                    <div class="showshare"><span>Share </span><i class="fa fa-share"></i></div>
+                                                    <div class="share-container  isShare"></div>
+                                                </div>
+                                                <span class="fw-separator"></span>
+												 <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            {% if page.previous.url %}
+			 <a href="{{ site.baseurl }}/{{page.previous.url}}" class="post-link prev-post-link"><i class="fa fa-angle-left"></i>Prev <span class="clearfix"> {{page.previous.title}}</span></a>
+            
+            {% endif %}
+            {% if page.next.url %}
+			 <div class="post-nav fl-wrap">
+             <a href="{{ site.baseurl }}/{{page.next.url}}" class="post-link next-post-link"><i class="fa fa-angle-right"></i>Next<span class="clearfix">{{page.next.title}} </span></a>
+                                                </div>
+           
+            {% endif %}
+            <div class="clearfix"></div>
+            </div>
+                                               
+                                            </div>
+                                        </article>
+                                        <!-- article end -->       
+                                        <span class="section-separator"></span>
+                                        <!-- list-single-main-item -->   
+                                        
+                                        <!-- list-single-main-item end -->   
+                                        <!-- list-single-main-item -->   
+                                        
+                                        <!-- list-single-main-item end -->                                
+                                    </div>
+                                </div>
+                                <!--box-widget-wrap -->
+                                <div class="col-md-4">
+                                    <div class="box-widget-wrap">
+                                        <!--box-widget-item -->
+                                        <div class="box-widget-item fl-wrap">
+                                            <div class="box-widget-item-header">
+                                                <h3>Search In blog : </h3>
+                                            </div>
+                                            <div class="box-widget search-widget">
+                                                <form action="#" class="fl-wrap">
+                                                    <input name="se" id="se" type="text" class="search" placeholder="Search.." value="Search..." />
+                                                    <button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <!--box-widget-item end -->  
+                                        <!--box-widget-item -->
+                                       
+                                        <!--box-widget-item end -->
+                                        <!--box-widget-item -->
+                                        <div class="box-widget-item fl-wrap">
+                                            <div class="box-widget-item-header">
+                                                <h3>Popular posts : </h3>
+                                            </div>
+                                            <!-- <div class="box-widget widget-posts blog-widgets"> -->
+                                                <!-- <div class="box-widget-content"> -->
+                                                    <!-- <ul> -->
+                                                        <!-- <li class="clearfix"> -->
+                                                            <!-- <a href="#"  class="widget-posts-img"><img src="images/all/1.jpg"  alt=""></a> -->
+                                                            <!-- <div class="widget-posts-descr"> -->
+                                                                <!-- <a href="#" title="">Cafe "Lollipop"</a> -->
+                                                                <!-- <span class="widget-posts-date"><i class="fa fa-calendar-check-o"></i> 21 Mar 2017 </span>  -->
+                                                            <!-- </div> -->
+                                                        <!-- </li> -->
+                                                        <!-- <li class="clearfix"> -->
+                                                            <!-- <a href="#"  class="widget-posts-img"><img src="images/all/1.jpg"  alt=""></a> -->
+                                                            <!-- <div class="widget-posts-descr"> -->
+                                                                <!-- <a href="#" title=""> Apartment in the Center</a> -->
+                                                                <!-- <span class="widget-posts-date"><i class="fa fa-calendar-check-o"></i> 7 Mar 2017 </span>  -->
+                                                            <!-- </div> -->
+                                                        <!-- </li> -->
+                                                        <!-- <li class="clearfix"> -->
+                                                            <!-- <a href="#"  class="widget-posts-img"><img src="images/all/1.jpg"  alt=""></a> -->
+                                                            <!-- <div class="widget-posts-descr"> -->
+                                                                <!-- <a href="#" title="">Event in City Mol</a> -->
+                                                                <!-- <span class="widget-posts-date"><i class="fa fa-calendar-check-o"></i> 7 Mar 2017 </span> -->
+                                                            <!-- </div> -->
+                                                        <!-- </li> -->
+                                                        <!-- <li class="clearfix"> -->
+                                                            <!-- <a href="#"  class="widget-posts-img"><img src="images/all/1.jpg"  alt=""></a> -->
+                                                            <!-- <div class="widget-posts-descr"> -->
+                                                                <!-- <a href="#" title="">Event in City Mol</a> -->
+                                                                <!-- <span class="widget-posts-date"><i class="fa fa-calendar-check-o"></i> 7 Mar 2017 </span> -->
+                                                            <!-- </div> -->
+                                                        <!-- </li> -->
+                                                    <!-- </ul> -->
+                                                <!-- </div> -->
+                                            <!-- </div> -->
+                                        </div>
+                                        <!--box-widget-item end -->     
+                                        <!--box-widget-item -->
+                                        <div class="box-widget-item fl-wrap">
+                                            <div class="box-widget-item-header">
+                                                <h3>Tags: </h3>
+                                            </div>
+                                            <!-- <div class="list-single-tags tags-stylwrap"> -->
+                                                <!-- <a href="#">Event</a> -->
+                                                <!-- <a href="#">Design</a> -->
+                                                <!-- <a href="#">Photography</a> -->
+                                                <!-- <a href="#">Trends</a> -->
+                                                <!-- <a href="#">Video</a> -->
+                                                <!-- <a href="#">News</a>                                                                                -->
+                                            <!-- </div> -->
+                                        </div>
+                                        <!--box-widget-item end -->     
+                                        <!--box-widget-item -->
+                                        
+                                        <!--box-widget-item end -->                                       
+                                        <!--box-widget-item -->
+                                       
+                                        <!--box-widget-item end -->                    
+                                    </div>
+                                </div>
+                                <!--box-widget-wrap end -->
+                            </div>
+                        </div>
+                    </section>
+
+
+       
+       
