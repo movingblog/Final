@@ -18,17 +18,17 @@ authors:
     display_name: Olumide
     gravatar: https://res.cloudinary.com/packmyload/image/upload/v1543796059/ceo.jpg
     email: aniyikaiye@packmyload.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
+    web: 
+    twitter: https://twitter.com/lummillionaire
     description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
   olalekan:
     name: Olalekan Folayan
     display_name: Olalekan    
     avatar: 'assets/images/avatar.png'
     gravatar: https://res.cloudinary.com/packmyload/image/upload/v1563880644/avi.jpg
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
+    email: lekan@packmyload.com
+    web: https://www.leksyde.com
+    twitter: https://twitter.com/lekus07
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
