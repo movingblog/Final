@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Packmyload berths in Lagos, seeks to simplify relocation"
-author: olumide
+author: olalekan
 categories: [ Jekyll, tutorial ]
 image: https://res.cloudinary.com/packmyload/image/upload/v1563167347/packman.png
 featured: true
