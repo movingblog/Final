@@ -14,7 +14,7 @@ Any kind of change can be particularly frightening for kids, and it is normal fo
 
 Some of the worries and feelings that your kids might encounter during a move include:
 
-
+<div class="listing-features fl-wrap">
                                                 <ul>
                                                     <li><i class="fa fa-circle"></i> A feeling of insecurity and fear about making new friends, or being accepted or liked at the new school.</li><br/>
                                                     <li><i class="fa fa-circle"></i> Academic concerns about changing teachers and schools and finding fresh curricula and norms.</li>
@@ -23,7 +23,7 @@ Some of the worries and feelings that your kids might encounter during a move in
                                                     <li><i class="fa fa-circle"></i>Additional fear should be associated with life-changing occurrences such as divorce, change-of-job for a parent, family economic changes, etc.</li>
                                                    
                                                 </ul>
-                                         
+              </div>
 
 
 
