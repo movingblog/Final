@@ -6,8 +6,6 @@ categories:
 image: https://res.cloudinary.com/packmyload/image/upload/c_scale,w_750/v1563966110/IMG_5843.png
 ---
 
-<![endif]-->
-
 Due to the stresses, the long list of responsibilities and tiredness we, as parents, go through when planning for and going through a move, it may be simple to overlook what our kids could be going through.  Here is a list of important things for your school-age kids to consider making this significant move as stress-free as possible.
 
 **Social / Emotional Considerations**
