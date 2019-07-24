@@ -17,10 +17,10 @@ Some of the worries and feelings that your kids might encounter during a move in
 <div class="listing-features fl-wrap">
                                                 <ul>
                                                     <li style="width:100%"><i class="fa fa-circle"></i> A feeling of insecurity and fear about making new friends, or being accepted or liked at the new school.</li><br/>
-                                                    <li><i class="fa fa-circle"></i> Academic concerns about changing teachers and schools and finding fresh curricula and norms.</li>
-                                                    <li><i class="fa fa-circle"></i> A sense of loss in abandoning present friends, educators and even their present home.
+                                                    <li style="width:100%"><i class="fa fa-circle"></i> Academic concerns about changing teachers and schools and finding fresh curricula and norms.</li>
+                                                    <li style="width:100%"><i class="fa fa-circle"></i> A sense of loss in abandoning present friends, educators and even their present home.
 </li>
-                                                    <li><i class="fa fa-circle"></i>Additional fear should be associated with life-changing occurrences such as divorce, change-of-job for a parent, family economic changes, etc.</li>
+                                                    <li style="width:100%"><i class="fa fa-circle"></i>Additional fear should be associated with life-changing occurrences such as divorce, change-of-job for a parent, family economic changes, etc.</li>
                                                    
                                                 </ul>
               </div>
@@ -49,19 +49,19 @@ Planning for the big day of the move is critical. Here are more tips to plan you
 
 <div class="listing-features fl-wrap">
                                                 <ul>
-                                                    <li><i class="fa fa-circle"></i> It's best to have your kids stay with a grandparent, family member or trusted good friend on an actual day if someone's nearby. This will keep them secure and happy.</li>
-                                                    <li><i class="fa fa-circle"></i> Prepare plenty of food and drink in advance. The food should be as non-perishable and simple to consume as possible. Include some of the favourite foods and treatments of your children in your ice chest to maintain them healthy.</li>
-                                                    <li><i class="fa fa-circle"></i>Prepare toys, games and books in advance to maintain your kids entertained during the lengthy moving period.
+                                                    <li style="width:100%"><i class="fa fa-circle"></i> It's best to have your kids stay with a grandparent, family member or trusted good friend on an actual day if someone's nearby. This will keep them secure and happy.</li>
+                                                    <li style="width:100%"><i class="fa fa-circle"></i> Prepare plenty of food and drink in advance. The food should be as non-perishable and simple to consume as possible. Include some of the favourite foods and treatments of your children in your ice chest to maintain them healthy.</li>
+                                                    <li style="width:100%"><i class="fa fa-circle"></i>Prepare toys, games and books in advance to maintain your kids entertained during the lengthy moving period.
 
 </li>
-                                                    <li><i class="fa fa-circle"></i>Your kids will want to have a nap or relax during the process. It's a good idea to leave a blanket, pillow, or other comfort items (maybe their favorite toy) that they have access to during the day.
+                                                    <li style="width:100%"><i class="fa fa-circle"></i>Your kids will want to have a nap or relax during the process. It's a good idea to leave a blanket, pillow, or other comfort items (maybe their favorite toy) that they have access to during the day.
 </li>
- <li><i class="fa fa-circle"></i>It's important to have a box of things you might need in a hurry. Make sure this box stays in a safe area during the move (the bathtub is a great place to keep important items that stay with you and don't go on the moving vehicle). These products should include medication, band-aids, favorite books for your kids, toiletries, and other private things.
+ <li style="width:100%"><i class="fa fa-circle"></i>It's important to have a box of things you might need in a hurry. Make sure this box stays in a safe area during the move (the bathtub is a great place to keep important items that stay with you and don't go on the moving vehicle). These products should include medication, band-aids, favorite books for your kids, toiletries, and other private things.
 </li>
-<li><i class="fa fa-circle"></i>Since the front door of your old and new homes will be open during the move, make sure your kids are protected and stay inside the house.
+<li style="width:100%"><i class="fa fa-circle"></i>Since the front door of your old and new homes will be open during the move, make sure your kids are protected and stay inside the house.
 
 </li>
-<li><i class="fa fa-circle"></i>Children often want to play with the moving dollies (pushcarts) and cartons that are in the home during the move. Moving boxes can be a excellent source of fun for kids, but if your little one comes inside, they can be unsafe with little kids. And attempts to hurry the race on a dolly can also be dangerous. Be sure to supervise the use of moving materials by your kids during a move.
+<li style="width:100%"><i class="fa fa-circle"></i>Children often want to play with the moving dollies (pushcarts) and cartons that are in the home during the move. Moving boxes can be a excellent source of fun for kids, but if your little one comes inside, they can be unsafe with little kids. And attempts to hurry the race on a dolly can also be dangerous. Be sure to supervise the use of moving materials by your kids during a move.
 </li>
                                                    
                                                 </ul>
