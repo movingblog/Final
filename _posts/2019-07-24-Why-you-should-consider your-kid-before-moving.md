@@ -16,7 +16,7 @@ Some of the worries and feelings that your kids might encounter during a move in
 
 <div class="listing-features fl-wrap">
                                                 <ul>
-                                                    <li><i class="fa fa-circle"></i> A feeling of insecurity and fear about making new friends, or being accepted or liked at the new school.</li><br/>
+                                                    <li style="width:100%"><i class="fa fa-circle"></i> A feeling of insecurity and fear about making new friends, or being accepted or liked at the new school.</li><br/>
                                                     <li><i class="fa fa-circle"></i> Academic concerns about changing teachers and schools and finding fresh curricula and norms.</li>
                                                     <li><i class="fa fa-circle"></i> A sense of loss in abandoning present friends, educators and even their present home.
 </li>
