@@ -1481,8 +1481,8 @@ section.gray-section .section-separator {
 }
 .card-listing  .geodir-category-img img {
 	float:left;
-	width:100%;
-	height:auto;
+	width:auto;
+	height:315px;
 	z-index:1;
 }
 .card-listing  .geodir-category-img .overlay {
