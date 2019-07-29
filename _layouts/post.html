@@ -32,17 +32,16 @@ post_class: post-template
                                         <!-- article> --> 
 		 {% assign author = site.authors[page.author] %}
                                         <article>
-                                           <div class="list-single-main-media fl-wrap">
-                                                <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"> 
-                                            </div>
-                                            <div class="list-single-main-item fl-wrap">
+                                         
+                                           
 								
                                                 <div class="list-single-main-item-title fl-wrap">
                                                  <h3>{{ page.title }}</h3>
                                                 </div>
                                                <p>{{content}}</p>
 											   
-											   <div class="post-author"><img src="{{ author.gravatar }}" alt="{{ author.display_name }}"><span>By , {{ author.display_name }}</span></div>
+											   <div class="post-author"><img src="{{ author.gravatar }}" alt="{{ author.display_name }}"><span>By , {{ author.display_name }}</span>
+						    </div>
                                                 <div class="post-opt">
                                                     <ul>
                                                         <li><i class="fa fa-calendar-check-o"></i> {{ page.date | date_to_string }}</li>
@@ -71,7 +70,7 @@ post_class: post-template
             <div class="clearfix"></div>
             </div>
                                                
-                                            </div>
+                                           
                                         </article>
                                         <!-- article end -->       
                                         <span class="section-separator"></span>
