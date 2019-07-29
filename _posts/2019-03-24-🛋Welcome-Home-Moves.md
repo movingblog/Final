@@ -24,4 +24,4 @@ We realize that all moves are not planned in advance, this is why <a href="https
 <br/>
 Call us to see if we can help you with your last minute move. We will get you moved the same day where possible, and if not we can usually get you in the next day.
 <br/>
-<a href="https://www.packmyload.com/" class="btn transparent-btn float-btn">Book Home Moves <i class="fa fa-angle-right"></i></a>
+
