@@ -11,10 +11,6 @@ hidden: true
 Whether it’s just a few items that need to be moved to another room, or an entire apartment or house, <a href="https://www.packmyload.com/">Packmyload.com</a>  Moving is the cost-effective option. Our moving services will eliminate the hassle of renting a van and doing the heavy lifting yourself. What makes packmyload.com unique is that once you arrive at your destination, Packmyload.com will be there to assist in additional chores to alleviate the stress of your move!
 <br/>
 <b>Garbage & Donations Removal</b>
-
-<br/>
-
-
 On or before your moving day packmyload.com will pickup and dispose of garbage that you do not wish to take with you to your new home. Alternatively, you may choose to donate certain items. packmyload.com can deliver these items to the location of your choice.
 <br/>
 <strong>Moving Day Services</strong>
