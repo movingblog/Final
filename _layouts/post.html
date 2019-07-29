@@ -27,12 +27,13 @@ post_class: post-template
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
+					
                                     <div class="list-single-main-wrapper fl-wrap" id="sec2">
                                         <!-- article> --> 
 		 {% assign author = site.authors[page.author] %}
                                         <article>
                                            <div class="list-single-main-media fl-wrap">
-                                                <!-- <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"> -->
+                                                <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"> 
                                             </div>
                                             <div class="list-single-main-item fl-wrap">
 								
