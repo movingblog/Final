@@ -1,8 +1,8 @@
 ---
+title: Why you should consider your kid before moving
+date: 2019-07-24 00:00:00 Z
 layout: post
-title:  "Why you should consider your kid before moving"
 author: jessica
-categories: 
 image: https://res.cloudinary.com/packmyload/image/upload/c_scale,w_750/v1563966110/IMG_5843.png
 ---
 

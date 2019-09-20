@@ -1,8 +1,8 @@
 ---
+title: Moving yourself vs. Moving with a professional moving company
+date: 2019-07-23 00:00:00 Z
 layout: post
-title:  "Moving yourself vs. Moving with a professional moving company"
 author: jessica
-categories: 
 image: https://res.cloudinary.com/packmyload/image/upload/v1557358623/Packmyload-service2.jpg
 ---
 

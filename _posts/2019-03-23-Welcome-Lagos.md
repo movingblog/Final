@@ -1,11 +1,10 @@
 ---
+title: "Now live in Lagos \U0001F33A"
+date: 2019-03-23 00:00:00 Z
 layout: post
-title:  "Now live in Lagos 🌺"
 author: olalekan
-categories: 
-tags: 
 image: https://res.cloudinary.com/packmyload/image/upload/v1563807498/Now_packing_in_1.png
-description: "Cheers to the city of dreamers."
+description: Cheers to the city of dreamers.
 featured: true
 hidden: true
 rating: 4.5

@@ -1,11 +1,12 @@
 ---
+title: Top 3 Moving Tips That Will Make Your Life So Much Easier.
+date: 2019-04-01 00:00:00 Z
 layout: post
-title:  "Top 3 Moving Tips That Will Make Your Life So Much Easier."
 author: olalekan
-categories: 
 image: https://miro.medium.com/max/700/1*XcP6vsGcSBNjzETR_7Z4TQ.png
 toc: false
 ---
+
 while moving can be really emotional and stressing. it can get to be real fun exciting. so here are 3 Top Tips to make moving stress-free 🙂
 
 1. Hire a moving company.
