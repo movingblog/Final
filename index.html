@@ -6,112 +6,86 @@ layout: Home
 <!-- Posts Index
 ================================================== -->
 
-                        <div class="col-list-wrap fh-col-list-wrap  left-list">
-                            <div class="container">
-                                <div class="row">
-                                    
-                                    <div class="col-md-4">
-									<div class="col-md-12">
-									<div class="list-main-wrap fl-wrap card-listing">
-									
-									<section>
-                        <div class="container">
-				<div class="section-title">
-                                <h2>Featured Stories</h2>
+ <div class="col-list-wrap fh-col-list-wrap  left-list">
+ 	<div class="container">
+        	<div class="row">
+                	<div class="col-md-4">
+				<div class="col-md-12">
+					<div class="list-main-wrap fl-wrap card-listing">
+
+	<section>
+        	<div class="container">
+			<div class="section-title">
+                        	<h2>Featured Stories</h2>
                                 <div class="section-subtitle">Our Featured Moving Stories</div>
                                 <span class="section-separator"></span>
                                 <p>Moving tips and More...</p>
                             </div>
 						
-                                        <!--Search Feature -->
-                                        <!-- <div class="box-widget-item fl-wrap"> -->
-                                            
-                                            <!-- <div class="box-widget search-widget"> -->
-                                                <!-- <form action="#" class="fl-wrap"> -->
-                                                    <!-- <input name="se" id="se" type="text" class="search" placeholder="Search.." value="Search..." /> -->
-                                                    <!-- <button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button> -->
-                                                <!-- </form> -->
-                                            <!-- </div> -->
-                                        <!-- </div> -->
-									
-                            
-									 {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include movingblogfeatured.html %}
+        <!--Search Feature -->
+        <!-- <div class="box-widget-item fl-wrap"> -->
+        <!-- <div class="box-widget search-widget"> -->
+              <!-- <form action="#" class="fl-wrap"> -->
+              <!-- <input name="se" id="se" type="text" class="search" placeholder="Search.." value="Search..." /> -->
+              <!-- <button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button> -->
+              <!-- </form> -->
+        <!-- </div> -->
+        <!-- </div> -->
+	
+	{% for post in site.posts %}
+        	{% if post.featured == true %}
+        		{% include movingblogfeatured.html %}		
+        			{% endif %}
+    					{% endfor %}
 			
-
-        {% endif %}
-
-    {% endfor %}
-	 <div class="box-widget-item fl-wrap">
-	  <div class="box-widget-item-header">
-                                               
-                                            </div>
-											 <div class="list-single-tags tags-stylwrap">
-	  {% assign categories_list = site.categories %}
-            {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
+	<div class="box-widget-item fl-wrap">
+		<div class="box-widget-item-header">     
+                </div>
+	<div class="list-single-tags tags-stylwrap">
+		
+	{% assign categories_list = site.categories %}
+        	{% if categories_list.first[0] == null %}
+        		{% for category in categories_list %}
                     
-                 <!-- <a href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> -->
+        <!-- <a href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> -->
 				<!-- {% endfor %} -->
-            {% else %}
-                {% for category in categories_list %}
+        {% else %}
+        	{% for category in categories_list %}
                     
-					 <!-- <a href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> -->
+	<!-- <a href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> -->
 			  <!-- {% endfor %} -->
-            {% endif %}
-            {% assign categories_list = nil %}
-                         </div>                  
-											
-                                           
-                                                                                                                        
-                                            
-                                        </div>
-	    </div>
-                    </section>
-	  </div>
-									</div>
-									 
-                                        
+        {% endif %}
+        	{% assign categories_list = nil %}
+        
+	</div>        
+        </div>
+	</div>
+        </section>
+	</div>
+	</div>
+       	</div>
+	
+	<div class="col-md-8">    
+        <!-- list-main-wrap-->
+        <div class="list-main-wrap fl-wrap card-listing">
+        
+	{% for post in paginator.posts %}
+		{% include movingblog.html %}
+			{% endfor %}
 
-                                    </div>
-					<div class="col-md-8">
-                                       
-                                        <!-- list-main-wrap-->
-                                        <div class="list-main-wrap fl-wrap card-listing">
-                                         {% for post in paginator.posts %}
-
-											{% include movingblog.html %}
-
-										{% endfor %}
-
-                                           
-                                            <!-- listing-item end-->                              
-                                            <!-- listing-item -->
-                                          
-                                            <!-- listing-item end-->
-                                         
-                                                                
-                                            <!-- pagination-->
-											
-											
+<!-- listing-item end-->                              
+<!-- listing-item -->
+<!-- listing-item end-->                     
+<!-- pagination-->									
 <!-- Pagination
 ================================================== -->
 
-									{% include newpagination.html %}
-
-
-                                          
-                                        </div>
-                                        <!-- list-main-wrap end-->                           
-                                    </div>
-                                    <!-- sidebar filters -->  
-                                   
-                                    <!-- sidebar filters end -->
-                                </div>
-                            </div>
-                        </div>
-               
-
+	{% include newpagination.html %}
+        </div>
+        <!-- list-main-wrap end-->                           
+        </div>
+       	<!-- sidebar filters -->
+        <!-- sidebar filters end -->
+        </div>
+       	</div>
+        </div>
