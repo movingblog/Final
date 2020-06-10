@@ -4,8 +4,8 @@ date: 2019-03-24 00:00:00 Z
 layout: post
 author: olalekan
 image: https://res.cloudinary.com/packmyload/image/upload/v1564427512/packmyload.com-home_moves-banner_image1.png
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 Whether it’s just a few items that need to be moved to another room, or an entire apartment or house, <a href="https://www.packmyload.com/">Packmyload.com</a>  Moving is the cost-effective option. Our moving services will eliminate the hassle of renting a van and doing the heavy lifting yourself. What makes packmyload.com unique is that once you arrive at your destination, Packmyload.com will be there to assist in additional chores to alleviate the stress of your move!
