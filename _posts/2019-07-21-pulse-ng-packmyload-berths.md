@@ -7,8 +7,8 @@ categories:
 layout: post
 author: olalekan
 image: https://res.cloudinary.com/packmyload/image/upload/v1563167347/packman.png
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 As part of efforts to ease corporate relocation, home relocation and storage, moving and logistics company, Packmyload has launched operations in Nigeria’s commercial nerve centre - Lagos. 
