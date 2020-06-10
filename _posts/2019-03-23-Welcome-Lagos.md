@@ -5,8 +5,8 @@ layout: post
 author: olalekan
 image: https://res.cloudinary.com/packmyload/image/upload/v1563807498/Now_packing_in_1.png
 description: Cheers to the city of dreamers.
-featured: true
-hidden: true
+featured: false
+hidden: false
 rating: 4.5
 ---
 
