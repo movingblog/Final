@@ -12,9 +12,13 @@ Due to the stresses, the long list of responsibilities and tiredness we, as pare
 
 Any kind of change can be particularly frightening for kids, and it is normal for kids of school age to magnify in their minds anything that is even mildly fear-producing.  Therefore, kids are often affected by a move even more than their parents even though they may not express or manifest outwardly their amount of stress or worries.
 
-Some of the worries and feelings that your kids might encounter during a move include:
+Some of the worries and feelings that your kids might encounter during a move include:  
+* A feeling of insecurity and fear about making new friends, or being accepted or liked at the new school  
+* Academic concerns about changing teachers and schools and finding fresh curricula and norms.  
+* A sense of losss in abandoning present friends, educators and even their present home  
+* Additional fear should be associated with life-changing occurences such as divorce, change-of-job for a parent, family economic changes, etc.
 
-<div class="listing-features fl-wrap">
+<!--<div class="listing-features fl-wrap">
                                                 <ul>
                                                     <li style="width:100%"><i class="fa fa-circle"></i> A feeling of insecurity and fear about making new friends, or being accepted or liked at the new school.</li><br/>
                                                     <li style="width:100%"><i class="fa fa-circle"></i> Academic concerns about changing teachers and schools and finding fresh curricula and norms.</li>
@@ -23,7 +27,7 @@ Some of the worries and feelings that your kids might encounter during a move in
                                                     <li style="width:100%"><i class="fa fa-circle"></i>Additional fear should be associated with life-changing occurrences such as divorce, change-of-job for a parent, family economic changes, etc.</li>
                                                    
                                                 </ul>
-              </div>
+              </div>-->
 
 
 
