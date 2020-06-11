@@ -14,7 +14,7 @@ layout: Home
 					<div class="list-main-wrap fl-wrap card-listing">
 
 	<section>
-        	<!--TEST<div class="container">
+        	<div class="container">
 			<!--<div class="section-title">
                         	<h2>Featured Stories</h2>
                                 <div class="section-subtitle">Our Featured Moving Stories</div>
@@ -32,13 +32,13 @@ layout: Home
         <!-- </div> -->
         <!-- </div> -->
 	
-	<!--TEST{% for post in site.posts %}
+	{% for post in site.posts %}
         	{% if post.featured == true %}
         		{% include movingblogfeatured.html %}		
         			{% endif %}
-    					{% endfor %}-->
+    					{% endfor %}
 			
-	<!--TEST<div class="box-widget-item fl-wrap">
+	<div class="box-widget-item fl-wrap">
 		<div class="box-widget-item-header">     
                 </div>
 	<div class="list-single-tags tags-stylwrap">
@@ -49,18 +49,18 @@ layout: Home
                     
         <!-- <a href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> -->
 				<!-- {% endfor %} -->
-        <!--TEST{% else %}
+        {% else %}
         	{% for category in categories_list %}
                     
 	<!-- <a href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> -->
 			  <!-- {% endfor %} -->
-        <!--TEST{% endif %}
+        {% endif %}
         	{% assign categories_list = nil %}
         
-	<!--TEST</div>        
+	</div>        
         </div>
 	</div>
-        </section>--><!--checking-->
+        </section>
 	</div>
 	</div>
        	</div>
