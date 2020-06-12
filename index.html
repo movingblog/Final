@@ -32,28 +32,29 @@ layout: Home
         <!-- </div> -->
         <!-- </div> -->
 	
-	{% for post in site.posts %}
+	<!--TEST THIS-->
+	<!--{% for post in site.posts %}
         	{% if post.featured == true %}
         		{% include movingblogfeatured.html %}		
         			{% endif %}
-    					{% endfor %}
-	<!-- TEST THIS-->
-	<!--<div class="box-widget-item fl-wrap"><!--fush-->
-		<!--<div class="box-widget-item-header"></div>
+    					{% endfor %}-->
+	
+	<div class="box-widget-item fl-wrap"><!--fush-->
+		<div class="box-widget-item-header"></div>
 	<div class="list-single-tags tags-stylwrap"><!--pink-->
 		
-	<!--{% assign categories_list = site.categories %}TEST THIS
+	{% assign categories_list = site.categories %}
         	{% if categories_list.first[0] == null %}
         		{% for category in categories_list %}
                     
         <!-- <a href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> -->
 				<!-- {% endfor %} -->
-        <!--{% else %}TEST THIS
+        {% else %}
         	{% for category in categories_list %}
                     
 	<!-- <a href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> -->
 			  <!-- {% endfor %} -->
-        <!--{% endif %}TEST THIS
+        {% endif %}
         	{% assign categories_list = nil %}
         
 	</div><!--pink end-->       
