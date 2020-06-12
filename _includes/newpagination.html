@@ -2,7 +2,8 @@
   <div class="pagination">
   	{% if paginator.previous_page %}
   
-<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="prevposts-link"><i class="fa fa-caret-left"></i></a>
+	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="prevposts-link">
+	<i class="fa fa-caret-left"></i></a>
 	{% else %}
 	{% endif %}
 	{% for page in (1..paginator.total_pages) %}
