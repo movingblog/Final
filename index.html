@@ -37,28 +37,27 @@ layout: Home
         		{% include movingblogfeatured.html %}		
         			{% endif %}
     					{% endfor %}
-			
-	<div class="box-widget-item fl-wrap">
-		<div class="box-widget-item-header">     
-                </div>
-	<div class="list-single-tags tags-stylwrap">
+	<!-- TEST THIS-->
+	<!--<div class="box-widget-item fl-wrap"><!--fush-->
+		<!--<div class="box-widget-item-header"></div>
+	<div class="list-single-tags tags-stylwrap"><!--pink-->
 		
-	{% assign categories_list = site.categories %}
+	<!--{% assign categories_list = site.categories %}TEST THIS
         	{% if categories_list.first[0] == null %}
         		{% for category in categories_list %}
                     
         <!-- <a href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> -->
 				<!-- {% endfor %} -->
-        {% else %}
+        <!--{% else %}TEST THIS
         	{% for category in categories_list %}
                     
 	<!-- <a href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> -->
 			  <!-- {% endfor %} -->
-        {% endif %}
+        <!--{% endif %}TEST THIS
         	{% assign categories_list = nil %}
         
-	</div>        
-        </div>
+	</div><!--pink end-->       
+        </div><!--fush end-->
 	</div>
         </section>
 	</div>
