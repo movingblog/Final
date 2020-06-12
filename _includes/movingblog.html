@@ -4,12 +4,15 @@
 	
 		{% if post.image %}
         <div class="geodir-category-img">
+		
 		{% if site.lazyimages == "enabled" %}
-	<img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"">
+	<img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" 
+	     data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"">
 	<div class="overlay"></div>
         </div>
+			
 		{% else %}
-       	<img  src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"">
+       	<img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"">
         <div class="overlay"></div>
         </div>
 		
@@ -17,6 +20,7 @@
 		{% endif %}
        	<div class="geodir-category-content fl-wrap">
         <a class="listing-geodir-category">{{ post.date | date_to_string }}</a>
+		
 		{% if post.author %}
 		{% if author.avatar %}
         <div class="listing-avatar"><a href="author-single.html">
