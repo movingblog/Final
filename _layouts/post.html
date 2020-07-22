@@ -15,15 +15,12 @@ post_class: post-template
                                
                                 <!-- <h2><span>{{ page.title }}</span></h2> -->
                                
-                               
                             <!-- </div> -->
                         <!-- </div> -->
                        
                     <!-- </section> -->
-					
-					
-					
-					<section class="gray-section" id="sec1">
+
+		<section class="gray-section" id="sec1">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
@@ -31,18 +28,17 @@ post_class: post-template
                                     <div class="list-single-main-wrapper fl-wrap" id="sec2">
                                         <!-- article> --> 
 		 {% assign author = site.authors[page.author] %}
-                                        <article>
-                                         
-                                           <div class="list-single-main-item fl-wrap">
-								
-                                                <div class="list-single-main-item-title fl-wrap">
-                                                 <h3>{{ page.title }}</h3>
-                                                </div>
-                                               <p>{{content}}</p>
+                               <article>
+                               <div class="list-single-main-item fl-wrap">		
+                               <div class="list-single-main-item-title fl-wrap">
+                                  <h3>{{ page.title }}</h3>
+                               </div>
+                              <p>{{content}}</p>
 											   
-											   <div class="post-author"><img src="{{ author.gravatar }}" alt="{{ author.display_name }}"><span>By , {{ author.display_name }}</span>
-						    </div>
-                                                <div class="post-opt">
+			<div class="post-author">
+				<img src="{{ author.gravatar }}" alt="{{ author.display_name }}"><span>By , {{ author.display_name }}</span>
+			</div>
+                                        	<div class="post-opt">
                                                     <ul>
                                                         <li><i class="fa fa-calendar-check-o"></i> {{ page.date | date_to_string }}</li>
                                                        
@@ -56,14 +52,17 @@ post_class: post-template
                                                     <div class="share-container  isShare"></div>
                                                 </div>
                                                 <span class="fw-separator"></span>
-												 <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+		<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+			
             {% if page.previous.url %}
-			 <a href="{{ site.baseurl }}/{{page.previous.url}}" class="post-link prev-post-link"><i class="fa fa-angle-left"></i>Prev <span class="clearfix"> {{page.previous.title}}</span></a>
+		<a href="{{ site.baseurl }}/{{page.previous.url}}" 
+		   class="post-link prev-post-link"><i class="fa fa-angle-left"></i>Prev <span class="clearfix"> {{page.previous.title}}</span></a>
             
             {% endif %}
             {% if page.next.url %}
-			 <div class="post-nav fl-wrap">
-             <a href="{{ site.baseurl }}/{{page.next.url}}" class="post-link next-post-link"><i class="fa fa-angle-right"></i>Next<span class="clearfix">{{page.next.title}} </span></a>
+		<div class="post-nav fl-wrap">
+             <a href="{{ site.baseurl }}/{{page.next.url}}" 
+		class="post-link next-post-link"><i class="fa fa-angle-right"></i>Next<span class="clearfix">{{page.next.title}} </span></a>
                                                 </div>
            
             {% endif %}
@@ -86,7 +85,7 @@ post_class: post-template
                                 <div class="col-md-4">
                                     <div class="box-widget-wrap">
                                         <!--box-widget-item -->
-                                        <div class="box-widget-item fl-wrap">
+                                        <!--<div class="box-widget-item fl-wrap">
                                             <div class="box-widget-item-header">
                                                 <h3>Search In blog : </h3>
                                             </div>
@@ -96,7 +95,8 @@ post_class: post-template
                                                     <button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button>
                                                 </form>
                                             </div>
-                                        </div>
+                                        </div>-->
+					    
                                         <!--box-widget-item end -->  
                                         <!--box-widget-item -->
                                        
