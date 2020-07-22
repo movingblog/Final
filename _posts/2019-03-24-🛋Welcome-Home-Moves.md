@@ -2,7 +2,6 @@
 title: "\U0001F6CBWelcome Home Moves"
 date: 2019-03-24 00:00:00 Z
 layout: post
-author: olalekan
 image: https://res.cloudinary.com/packmyload/image/upload/v1564427512/packmyload.com-home_moves-banner_image1.png
 featured: false
 hidden: false
