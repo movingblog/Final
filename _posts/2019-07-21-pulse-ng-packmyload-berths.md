@@ -5,7 +5,6 @@ categories:
 - Jekyll
 - tutorial
 layout: post
-author: olalekan
 image: https://res.cloudinary.com/packmyload/image/upload/v1563167347/packman.png
 featured: false
 hidden: false
