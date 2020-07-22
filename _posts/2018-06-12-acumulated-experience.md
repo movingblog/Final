@@ -2,7 +2,6 @@
 title: Accumulated experience of social living
 date: 2018-06-12 00:00:00 Z
 layout: post
-author: olalekan
 image: assets/images/15.jpg
 ---
 
