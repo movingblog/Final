@@ -2,6 +2,7 @@
 title: Moving yourself vs. Moving with a professional moving company
 date: 2019-07-23 00:00:00 Z
 layout: post
+image: https://res.cloudinary.com/packmyload/image/upload/v1557358623/Packmyload-service2.jpg
 ---
 
 Moving yourself: This is only a good idea when you’re on a tight budget. You must have a few belongings, most of which are clothes. You may also have many family and friends around or just moving down the road. Problem may arise including breakage, damaged public property and even injuries. This will be less evitable when it comes with professional movers.
