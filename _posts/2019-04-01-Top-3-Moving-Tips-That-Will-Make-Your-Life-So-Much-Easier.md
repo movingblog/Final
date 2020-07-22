@@ -2,7 +2,6 @@
 title: Top 3 Moving Tips That Will Make Your Life So Much Easier.
 date: 2019-04-01 00:00:00 Z
 layout: post
-author: olalekan
 image: https://miro.medium.com/max/700/1*XcP6vsGcSBNjzETR_7Z4TQ.png
 toc: false
 ---
