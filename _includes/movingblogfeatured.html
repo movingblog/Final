@@ -8,12 +8,14 @@
 	{% if site.lazyimages == "enabled" %}
                                  
 	<div class="card-post-img fl-wrap">
-        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"" alt=""></a>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+<img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"" alt=""></a>
         </div>
 	
 	{% else %}	
 	<div class="card-post-img fl-wrap">
-        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"" alt=""></a>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+<img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"" alt=""></a>
         </div>
 									
 	{% endif %}
