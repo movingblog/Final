@@ -14,7 +14,9 @@
         </div>
 			
 		{% else %}
+	<a href="{{ site.baseurl }}{{ post.url }}">
        	<img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"">
+	</a>
         <div class="overlay"></div>
         </div>
 		
